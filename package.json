@@ -1,0 +1,18 @@
+{
+  "name": "andro_bot",
+  "version": "1.0.0",
+  "description": "Bot enfocado al entretenimiento en un grupo de Telegram",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "config": "npm install && if find .env 1> /dev/null; then echo \"\n¡Configuración lista!\"; else \"Falta el archivo .env\"; fi",
+    "bot": "node ./${main}"
+  },
+  "keywords": [],
+  "author": "VladImpaler64",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "telegraf": "^4.16.3"
+  }
+}
